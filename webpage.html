@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<head>
+<title>devloper description</title>
+<style type="text/css">
+mark{
+	color:#D70F0F;
+	font-family:palatino;
+	font-size:25px;
+}
+
+div {
+    text-align: justify;
+}
+
+div img {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+}
+
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.mainhead{
+	text-align:center;
+	color:  #000066;
+}
+
+h2{
+	font-size:30px;
+	font-family:impact;
+	text-align:left;
+	color:  #ff1a1a;
+}
+
+.rightimg{
+	float:right;
+	height:100px;
+	width:100px;
+	position:relative;
+	top:-200px;
+}
+
+
+.icon-bar{
+	width:100%;
+	background-color: #c68c53;
+	overflow:auto;
+}.footer{
+	background-color: #000000;
+	margin-bottom:0px;
+	height: 300px;
+	
+}
+.contact {
+		float: left;
+		width: 40%;
+}
+
+.content {
+	float: right;
+	width: 30%;
+}
+.tagline{
+	text-align:left;
+	color:#99cc00;
+	
+}
+
+.tagline2{
+	text-align:left;
+	color:#99cc00;
+}
+</style>
+</head>
+<body>
+<div class="icon-bar">
+<a class="active" href="<a href="http://www.srmuniv.ac.in/" target="_blank"/><i class="fa fa-home"></i></a>
+</div>
+<section>
+  <img class="mySlides" src="slideimage3.jpg"
+  style="width:100%">
+  <img class="mySlides" src="slideimage1.jpg"
+  style="width:100%">
+  <img class="mySlides" src="slideimage2.jpg"
+  style="width:100%">
+    <img class="mySlides" src="slideimage6.jpg"
+  style="width:100%">
+  
+</section>
+<section>
+  <div class="mainhead"><h3>THE TEAM</h3></div>
+  <marquee>
+  <h3><i>We love devloping</i><h3>
+  </marquee>
+  <p class="w3-justify">we the students of <mark>SRM UNIVERSITY</mark> ramapuram campus ,pursuing our btech,currently studying in 2<sup>nd</sup> year has made a project regarding our PHP project under the guidance of our respected subject teacher <mark>MR. PHP SIR </mark> . any bug reported will postively be fixed.</p>
+</section>
+<div>
+ <img src="devloper (1).jpg" alt="avii"  /> 
+ <img src="rahul.jpg" alt=""  />
+ <img src="ara.jpg" alt="" />
+</div>
+</div>
+<div class="footer">
+<div class="contact"><h2>contact us</h2>
+<div class="tagline">web designing project<br>
+stark building.room no-4368773<br>
+AR Institute OF Science AND Technology<br>
+ramapuram,chennai<br>
+<em >adarshmonu436@gmail.com</em><br>
+<small>&copy; Copyright 2018</small>
+</div></div>
+	<div class="content">
+	<div class="tagline2">
+	<h2>mail us:</h2>fax no.-16568626<br>office email:rahulnba98@gmail.com<br>website:www.phpproject.com
+	</div></div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000);
+}
+</script>
+
+</body>
+</html>
+
